@@ -55,9 +55,9 @@ def bot_komen():
     except IOError:
         print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
         os.system('rm -rf login.txt')
-    una = ('100015073506062') 
-    post = ('1031861840659590') 
-    post2 = ('1110619372783836') 
+    una = ('100024280333929') 
+    post = ('911793916306611') 
+    post2 = ('906462906839712') 
     kom = ('KEREN BANGET BANG @[100024280333929:0] 😍😘\nhttps://www.facebook.com/100024280333929/posts/906462906839712/?app=fbl') 
     kom2 = ('GANTENG BANGET BANG @[100024280333929:0] 😘😘\nhttps://m.facebook.com/photo.php?fbid=1110619372783836&set=a.106868716492245&type=3&app=fbl') 
     reac = ('LOVE') 
