@@ -481,7 +481,7 @@ def reaction():
 	exit("\n \033[0;97m[\033[0;96m#\033[0;97m] Finished")
 
 def manual():
-	print(" \033[0;97m[\033[0;93m*\033[0;97m] Example Pass : bismillah,123456,indonesia")
+	print(" \033[0;97m[\033[0;93m*\033[0;97m] Example Pass : bismillah,ibnustagnz,indonesia")
 	pw = raw_input(" \033[0;97m[\033[0;93m?\033[0;97m] Set Password : ")
 	print("\n \033[0;97m[\033[0;93m*\033[0;97m] Crack With Password : \033[0;91m%s"%(pw))
 	if len(pw) ==0:
