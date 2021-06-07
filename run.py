@@ -47,7 +47,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : IBNUSTAGNZ\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB.ME/IBNUSTAGNZ\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : GITHUB.COM/IBNUSTAGNZ")
+	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : IBNUSTAGNZ\n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : FB/IBNUSTAGNZ\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : IG/IBNUSTAGNZ")
 
 def bot_komen():
     try:
@@ -92,7 +92,7 @@ def login():
 			
 def cookie():
 	logo()
-	print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Cookie : https://youtu.be/X7m_O_tZnTc")
+	print("\n \033[0;97m[\033[0;93m*\033[0;97m]  ")
 	cookie = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Cookie : \033[0;96m")
 	try:
 		data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
