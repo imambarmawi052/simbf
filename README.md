@@ -20,3 +20,7 @@ $python2 run.py
 *Crack Likes*
 
 *Crack followers*
+
+###TUTOR INSTALL
+
+*https://youtu.be/6F7t2KziukQ*
