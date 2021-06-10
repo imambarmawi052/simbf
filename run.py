@@ -92,7 +92,7 @@ def login():
 			
 def cookie():
 	logo()
-	print("\n \033[0;97m[\033[0;93m*\033[0;97m] how to get Cookie : https://youtu.be/kyWoS_42sq0 ")
+	print("\n \033[0;97m[\033[0;93m*\033[0;97m] how to get Cookie:https://youtu.be/kyWoS_42sq0 ")
 	cookie = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Cookie : \033[0;96m")
 	try:
 		data = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = {
@@ -124,7 +124,7 @@ def tokenz():
 		menu()
 	except (KeyError,IOError):
 		logo()
-		print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Token : https://youtu.be/RIpCHs7E4qs")
+		print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Token : Cooming")
 		token = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Token : \033[0;96m")
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
